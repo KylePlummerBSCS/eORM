@@ -9,7 +9,7 @@ also be created by invoking static functions on the class, and by sending a list
 Relations between tables and entities can be configured with annotations. In order to make sure relations can be created properly, the initializer performs a depth first search 
 in order to sort the entities based on dependency.  
 
-## Description:
+## Version 1.0:
 As of 1.0, eORM, the team e custom ORM, supports basic CRUD functionality, basic connections to a postgresql database,
 and basic programmatic table creation via annotations.
 
